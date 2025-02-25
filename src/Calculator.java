@@ -15,7 +15,7 @@ public class Calculator {
 
 		double result = 0;
 		if (b == 0) {
-			throw new ArithmeticException("No division by zero allowed);
+			throw new ArithmeticException("No division by zero allowed");
 		}
 		if (a<b) {
 			result = a * b;
